@@ -1,0 +1,6 @@
+# Ignore large dataset CSV files as instructed in Section 2.8
+data/*.csv
+Data/*.csv
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
