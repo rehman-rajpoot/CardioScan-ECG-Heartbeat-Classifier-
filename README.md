@@ -3,7 +3,7 @@
 **Team Members:**
 - **Rizwana Mubarak** 
 - **Abdul Rehman**
-![poster](poster.png)
+![poster](results/poster.png)
 ---
 
 ## 1. Overview
