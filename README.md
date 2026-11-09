@@ -106,7 +106,7 @@ python -m streamlit run app/app.py
   - **Q (Paced / Unknown):** Precision `98.98%` | Recall `97.45%` | F1-Score `98.21%`
 
 ---
-
+![CardioScan Spatial UI](results/frontend_screenshot.png)
 ## 5. VisionOS Spatial UI Design
 The web interface was engineered following **Spatial UI principles** and the strict **60-30-10 color rule**:
 * **60% Midnight Black (`#0B0B0C`):** Deep ambient spatial background with subtle glowing light cones.
