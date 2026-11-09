@@ -1,10 +1,8 @@
 # Classifying Heartbeats from ECG Signals
 ### A Neural Network Built and Trained from Scratch in PyTorch
-
-**Course:** Machine Learning (Fall 2026) — Assignment No. 03  
 **Team Members:**
-- **Rizwana Mubarak** — Roll No: `23F-6055`
-- **Abdul Rehman** — Roll No: `23F-6075`
+- **Rizwana Mubarak** 
+- **Abdul Rehman**
 
 ---
 
@@ -21,18 +19,18 @@ All core algorithmic components are derived and written manually without high-le
 
 ---
 
-## 2. Deliverables & Repository Layout
+## 2. Repository Layout
 ```text
 ├── data/                               # Dataset files (mitbih_train.csv & mitbih_test.csv)
 ├── src/
 │   ├── load_data.py                    # Raw CSV dataset loader
 │   ├── plot_beats.py                   # Plots 1 example heartbeat per class
-│   ├── prepare.py                      # Task 1: 90/10 train-val split, tensor conversion
-│   ├── model.py                        # Task 2 & 3.1: ECGNet architecture & custom cross-entropy
-│   ├── grad_check.py                   # Task 3.2: Hand-computed output layer gradient check
-│   ├── train.py                        # Task 4: Custom SGD + momentum + weight decay & LR search
-│   ├── metrics.py                      # Task 5.2: Custom accuracy, confusion matrix, balanced accuracy
-│   └── test_model.py                   # Task 5: Test set evaluation and confusion matrix
+│   ├── prepare.py                      # 90/10 train-val split, tensor conversion
+│   ├── model.py                        # ECGNet architecture & custom cross-entropy
+│   ├── grad_check.py                   # Hand-computed output layer gradient check
+│   ├── train.py                        # Custom SGD + momentum + weight decay & LR search
+│   ├── metrics.py                      # Custom accuracy, confusion matrix, balanced accuracy
+│   └── test_model.py                   # Test set evaluation and confusion matrix
 ├── results/
 │   ├── example_beats.png               # Five characteristic ECG morphologies
 │   ├── lr_comparison_val_loss.png      # Validation loss across learning rates
@@ -41,11 +39,11 @@ All core algorithmic components are derived and written manually without high-le
 │   ├── confusion_matrix.png            # Normalized confusion matrix heatmap
 │   ├── tables.pdf                      # Times New Roman B&W formatted tables
 │   ├── report_and_analysis.pdf         # Times New Roman B&W 4-page analysis report
-│   ├── medium_blog.md                  # Task 7.2: Comprehensive technical Medium article
-│   ├── linkedin_post.md                # Task 7.3: Professional LinkedIn announcement
-│   ├── poster.html                     # Task 7.4: Classic minimal academic poster (HTML/CSS)
-│   ├── poster.pdf                      # Task 7.4: Classic minimal academic poster (PDF)
-│   └── poster.png                      # Task 7.4: High-resolution minimal academic poster (PNG)
+│   ├── medium_blog.md                  # Comprehensive technical Medium article
+│   ├── linkedin_post.md                # Professional LinkedIn announcement
+│   ├── poster.html                     # Classic minimal academic poster (HTML/CSS)
+│   ├── poster.pdf                      # Classic minimal academic poster (PDF)
+│   └── poster.png                      # High-resolution minimal academic poster (PNG)
 ├── app/
 │   ├── app.py                          # Task 7.1: Spatial UI Web Application (VisionOS HUD)
 │   ├── curated_beats.json              # Canonical ECG beats across 5 classes
@@ -124,6 +122,6 @@ The web interface was engineered following **Spatial UI principles** and the str
 ---
 
 ## 6. Project Authors
-* **Rizwana Mubarak** — Roll No: `23F-6055`
-* **Abdul Rehman** — Roll No: `23F-6075`  
-*Department of Computer Science, FAST National University of Computer & Emerging Sciences*
+* **Rizwana Mubarak** 
+* **Abdul Rehman**  
+
